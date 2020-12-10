@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>a</title>
+    <script src="node_modules/axios/dist/axios.min.js"></script>
+</head>
+<body>
+
+    <form action="" method="POST">
+        <input type="text" id="a">
+
+        <button type="button" onclick="ehnomame()">a</button>
+    </form>
+
+    <script>
+        function ehnomame()
+        {
+            axios.post(`api/index.php/a`, {
+                letra: document.forms[0].a.value,
+            })
+            .then(resp => {
+                alert(resp.data.mensaje);
+            })
+            .catch(error => {
+                console.log(error);
+            });
+        }
+    </script>
+
+</body>
+</html>

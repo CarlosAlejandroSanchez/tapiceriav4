@@ -1,0 +1,17 @@
+{
+    "name": "carlos/tapiceriav4",
+    "description": "Giro de negocio web con Axios y Slim",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Carlos Sanchez",
+            "email": "Carlos.sanchez141124@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/database": "^8.17",
+        "illuminate/events": "^8.17",
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.3"
+    }
+}

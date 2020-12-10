@@ -1,0 +1,14 @@
+.center{
+    text-align: center;
+}
+nav{
+    border-bottom: 1px solid black;
+}
+.card
+{
+    border: 1px solid black;
+}
+.card-image
+{
+    border-bottom: 1px solid black;
+}
